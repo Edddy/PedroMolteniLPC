@@ -1,0 +1,1 @@
+tw -i .\TailwindInput.css -o .\TailwindOutput.css -c .\tailwind.config.js
