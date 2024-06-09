@@ -1,2 +1,2 @@
-# Hotel Fuaz
-Solo contiene los HTML, js y css files del sitio publico
+# Pedro Molteni LPC
+This repository only contains the HTML, CSS and JS files of the public website
