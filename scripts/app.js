@@ -1,20 +1,24 @@
 ; (function ($) {
 	var app = $.sammy(function () {
-		this.get('/', function () {
-			$('#content').load('home.html');
-		});
-		this.get('#/about', function () {
-			$('#content').load('about.html');
-		});
-		this.get('#/articles', function () {
-			$('#content').load('articles.html');
-		});
-		this.get('#/finances', function () {
-			$('#content').load('finances.html');
-		});
-		this.get('#/faqs', function () {
-			$('#content').load('faqs.html');
-		});
+		with (this) {
+			use(Sammy.GoogleAnalytics);
+
+			get('/', function () {
+				$('#content').load('home.html');
+			});
+			get('#/about', function () {
+				$('#content').load('about.html');
+			});
+			get('#/articles', function () {
+				$('#content').load('articles.html');
+			});
+			get('#/finances', function () {
+				$('#content').load('finances.html');
+			});
+			get('#/faqs', function () {
+				$('#content').load('faqs.html');
+			});
+		}
 	});
 
 	$(function () {
