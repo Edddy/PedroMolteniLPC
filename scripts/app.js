@@ -12,11 +12,14 @@
 			get('#/articles', function () {
 				$('#content').load('articles.html');
 			});
-			get('#/finances', function () {
-				$('#content').load('finances.html');
+			get('#/resources', function () {
+				$('#content').load('resources.html');
 			});
 			get('#/faqs', function () {
 				$('#content').load('faqs.html');
+			});
+			get('#/videos', function () {
+				$('#content').load('videos.html');
 			});
 		}
 	});
