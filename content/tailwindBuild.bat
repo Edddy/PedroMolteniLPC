@@ -1,1 +1,1 @@
-tw -i .\TailwindInput.css -o .\TailwindOutput.css -c .\tailwind.config.js
+c:\WinUtl\tailwindCss\tailwindcss-windows-x64 -i .\TailwindInput.css -o .\TailwindOutput.css -c .\tailwind.config.js
