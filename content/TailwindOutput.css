@@ -1430,6 +1430,10 @@ video {
     margin-top: 5rem;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
   .lg\:grid {
     display: grid;
   }
